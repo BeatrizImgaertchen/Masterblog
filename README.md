@@ -14,14 +14,19 @@ Delete Unwanted Posts: Remove any posts you no longer want.
 ### Code Details
 File Structure
 masterblog.py: The main Flask application file.
+
 blog_posts.json: JSON file storing the blog posts data.
+
 Flask Routes
 / (index): Displays a list of all blog posts.
+
 /add: Allows adding a new blog post.
+
 /delete/int:post_id: Deletes a blog post based on the given post_id.
+
 /update/int:post_id: Updates a blog post based on the given post_id.
 
-Contributing
+### Contributing
 Contributions are welcome! If you have ideas for improvement, find bugs, or want to add features, please open an issue or submit a pull request.
 
-Happy coding and blogging! 🚀📖
+### Happy coding and blogging! 🚀📖
